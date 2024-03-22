@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/u8"
+        tools:layout_editor_absoluteX="-38dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:hint="Write Your Calculations"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btcalculate"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="320dp"
+            android:backgroundTint="#FF3D00"
+            android:text="Calculate"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/bterase"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="380dp"
+            android:backgroundTint="@color/black"
+            android:text="Erase"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btplus"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="440dp"
+            android:backgroundTint="@color/red"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btminus"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="440dp"
+            android:backgroundTint="@color/red"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btmul"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="440dp"
+            android:backgroundTint="@color/red"
+            android:text="*"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btdiv"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="440dp"
+            android:backgroundTint="@color/red"
+            android:text="/"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btmod"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="440dp"
+            android:backgroundTint="@color/red"
+            android:text="%"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="500dp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="500dp"
+            android:text="2"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt3"
+            android:backgroundTint="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="500dp"
+            android:text="3"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="550dp"
+            android:text="4"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="550dp"
+            android:text="5"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="550dp"
+            android:text="6"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="600dp"
+            android:text="7"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:backgroundTint="@color/black"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="600dp"
+            android:text="8"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="600dp"
+            android:text="9"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/bt0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ed1"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="650dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:textAlignment="center"
+            android:textSize="25dp"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
